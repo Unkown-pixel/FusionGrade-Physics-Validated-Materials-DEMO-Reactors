@@ -1,0 +1,91 @@
+# 🧪 SIMULATED EXPERIMENTAL SUMMARY: MATERIAL B  
+## `W-94.9V-4.98La-0.02TiC0.1` (wt%) — Plasma-Facing Fusion Alloy
+
+> *Recommended for: High heat flux plasma-facing surfaces (divertor, baffles, limiters)*  
+> *Simulated to outperform Pure W and W-La₂O₃ in erosion resistance, thermal conductivity, and tritium retention.*
+
+---
+
+### 🔬 1. MATERIAL SPEC
+
+- **Composition (wt%)**: W 94.9, V 4.98, La 0.02 (as La₂O₃), TiC 0.1
+- **Fabrication**: Simulated MA + HIP @ 1600°C, 200 MPa
+- **Grain Size**: 4.7 ± 0.6 µm
+- **Density**: 18.11 g/cm³
+- **Melting Point**: ~3380°C
+
+---
+
+### ⚙️ 2. TEST CONDITIONS
+
+- **Thermal Cycling**: 500 cycles (300°C ↔ 1100°C, 10 min/cycle)
+- **Heat Flux**: 10 MW/m² steady + 20 MW/m² transient (ELM sim, 0.5 ms)
+- **Plasma Exposure**: D⁺ @ 500 eV, 1×10²⁴ ions/m²/s, fluence = 1×10²⁷ D/m² + 10% He⁺
+- **Neutron Irradiation**: 10 dpa, 1000 appm He, 800°C
+- **Post-Irradiation Exam**: SEM/TEM, TDS, nanoindentation, 3-pt bend
+
+---
+
+### 📊 3. QUANTITATIVE RESULTS
+
+| Property                          | Simulated Value               |
+|-----------------------------------|-------------------------------|
+| Thermal Conductivity @ 1000°C     | 125 ± 5 W/m·K                 |
+| CTE (300–1000°C)                  | 4.8 × 10⁻⁶/K                  |
+| Yield Strength @ 800°C            | 410 MPa                       |
+| UTS @ 800°C                       | 490 MPa                       |
+| DBTT                              | 420 ± 15°C                    |
+| Fracture Toughness (K_IC)         | 14.1 ± 0.8 MPa·√m             |
+| Recrystallization Onset           | ~1300°C                       |
+| Crack Density (after 500 cycles)  | 0.5 cracks/mm²                |
+| Swelling @ 10 dpa                 | 1.10 ± 0.08%                  |
+| He Bubble Density                 | 95 ± 12 bubbles/µm²           |
+| Avg. He Bubble Size               | 4.8 ± 0.7 nm                  |
+| Max Bubble Size at GBs            | 15.3 nm                       |
+| Dislocation Loop Density          | 1.8 × 10²² m⁻³                |
+| Hardening (ΔHv)                   | +52 HV                        |
+| Embrittlement (ΔK_IC)             | -18%                          |
+| Sputtering Yield (D⁺ @ 500 eV)    | 0.071 ± 0.004                 |
+| Eroded Mass                       | 1.42 µg/cm²                   |
+| Surface Roughness (Ra)            | 89 nm                         |
+| Blister Density (>1µm)            | 5 / mm²                       |
+| Tritium Retention                 | 0.89 × 10¹⁶ T/m²              |
+| T Desorption Peak Temp            | 490°C                         |
+| Contact Dose (1 day post-shutdown)| 95 µSv/h @ 1m                 |
+| Contact Dose (50 yrs decay)       | 5.1 µSv/h @ 1m                |
+| Waste Classification (EU)         | Very Low Level Waste (VLLW)   |
+
+---
+
+### 🆚 4. VS. BASELINE MATERIALS
+
+| Metric                     | Pure W     | W-La₂O₃    | Material B     |
+|----------------------------|------------|------------|----------------|
+| Max Use Temp               | 1300°C     | 1300°C     | **>1300°C**    |
+| Thermal Conductivity       | ~110 W/m·K | ~105 W/m·K | **125 W/m·K**  |
+| Sputtering Yield           | 0.10       | 0.095      | **0.071**      |
+| Surface Roughness (post-D) | 150+ nm    | 130 nm     | **89 nm**      |
+| T Retention                | 1–5e16     | 1–3e16     | **0.89e16**    |
+| Activation (50 yr dose)    | Medium     | Medium     | **Low**        |
+
+---
+
+### ⚠️ 5. OBSERVED LIMITATIONS
+
+- Localized He bubble coalescence at triple junctions → potential crack initiation under extreme ELMs.
+- Higher DBTT than Material A → avoid use in high-stress structural zones.
+
+---
+
+### ✅ 6. RECOMMENDED USE
+
+> **Plasma-facing components under high particle/heat flux:**  
+> - Divertor monoblock armor  
+> - Limiter strike surfaces  
+> - Baffle plates  
+> - ELM-resilient tiles  
+> - Beam-facing diagnostic shields
+
+---
+
+📄 *Save as: `/materials/MaterialB_Summary.md`*
