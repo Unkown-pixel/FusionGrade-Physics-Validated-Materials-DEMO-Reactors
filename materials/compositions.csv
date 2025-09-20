@@ -1,0 +1,3 @@
+Name,Composition (wt%),Primary Use Case,Simulated Advantage
+Material-A,"W92.9,V6.98,La0.02,TiC0.1",Structural (High Neutron Flux),Improved toughness, swelling resistance, low DBTT
+Material-B,"W94.9,V4.98,La0.02,TiC0.1",Plasma-Facing (Divertor/First Wall),Higher thermal conductivity, lower sputtering, lower T retention
