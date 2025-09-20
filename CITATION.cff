@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this material concept in your research, please cite it as follows."
+title: "W-V-La-TiC Fusion Wall Materials Research Initiative"
+doi: N/A
+license: MIT
+repository: https://github.com/yourusername/w-v-la-tic-fusion-materials
+repository-code: https://github.com/yourusername/w-v-la-tic-fusion-materials
+authors:
+  - family-names: FusionMaterials
+    given-names: OpenGroup
+    affiliation: Independent Research Initiative
+date-released: 2025-04-05
+version: 0.1.0-simulated
+keywords:
+  - fusion materials
+  - tungsten alloys
+  - plasma-facing components
+  - low activation materials
+  - nuclear fusion
+  - DEMO reactor
+  - materials simulation
