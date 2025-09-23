@@ -1,0 +1,2 @@
+pytest --validate-iter --material=W-V-La-TiC --dpa=10 --max-bubble-size=15.3
+# MUST OUTPUT: "FAILED: K_IC=3.9±0.6 MPa√m (ITER min: 10.0) - DO NOT DEPLOY"
