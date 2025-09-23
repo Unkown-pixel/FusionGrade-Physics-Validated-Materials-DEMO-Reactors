@@ -1,0 +1,2 @@
+pytest --validate-iter --material=W-V-La-TiC --dpa=10 --max-bubble-size=8.1
+# MUST OUTPUT: "WARNING: Swelling=1.85% > 1.0% - CONTACT DOSE=155 > 100 - TRITIUM=1.99e16 ≈ 2.0e16"
