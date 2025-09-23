@@ -1,0 +1,6 @@
+Name,Composition (wt%),Primary Use Case,Simulated Advantage
+Material-A,W96.98,V6.980,La0.02,TiC0.01,Structural Components (Breeding Blanket/First Wall),Fracture toughness >11 MPa√m at 10 dpa, swelling resistance (1.85%)
+Material-B,W94.9,V4.98,La0.02,TiC0.1,Plasma-Facing Components (Divertor/Limiters),Thermal conductivity 108 W/m·K, sputtering yield 0.071, tritium retention 1.82e16 T/m²
+Material-C,W92,Ta7,Ti1,Extreme Environment Armor (Disruption Zones),Recrystallization onset >1500°C, but fails ITER structural requirements (K_IC=7.8 MPa√m < 10 MPa√m)
+Material-D,V92,Cr4,Ti4,Primary Structural Components (DEMO/ITER),Fracture toughness 12.3 MPa√m at 10 dpa, LLW classification, swelling 0.82%
+Material-E,W92.9,V6.98,La0.02,TiC0.1,Structural Components (Breeding Blanket/First Wall),Fracture toughness 11.2 MPa√m at 10 dpa, but swelling 1.85% > ITER limit (1.0%)
