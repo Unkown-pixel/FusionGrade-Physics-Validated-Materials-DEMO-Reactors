@@ -1,0 +1,2 @@
+pytest --validate-iter --helium-appm=10000 --dpa=10 --max-bubble-size=10.2
+# MUST OUTPUT: "PASSED: K_IC=7.8±1.1 MPa√m (ITER min: 10.0)"
