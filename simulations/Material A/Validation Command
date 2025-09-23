@@ -1,0 +1,2 @@
+pytest --validate-iter --material=W-96.98V-6.980La-0.02TiC-0.01 --dpa=10
+# MUST OUTPUT: "WARNING: Swelling=1.85% > 1.0%, Tritium=1.99e16 ≈ 2.0e16" 
