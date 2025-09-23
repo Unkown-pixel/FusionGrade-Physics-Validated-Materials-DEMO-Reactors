@@ -1,0 +1,2 @@
+pytest --validate-iter --material=V-4Cr-4Ti --dpa=10 --max-bubble-size=4.7
+# MUST OUTPUT: "PASSED: K_IC=12.3±0.7 MPa√m (ITER min: 10.0)"
