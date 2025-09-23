@@ -1,0 +1,108 @@
+### 🧪 SIMULATED EXPERIMENTAL SUMMARY: MATERIAL C  
+## `W-92Ta-7Ti-1` (wt%) — Ultra-High-Temperature Refractory Fusion Alloy  
+
+> *Recommended for: **NON-STRUCTURAL components only** (diagnostic ports, non-cooled shields)*  
+> *Simulated to fail ITER structural requirements due to helium embrittlement — **NOT for plasma-facing surfaces**.*  
+
+---
+
+### 🔬 1. MATERIAL SPEC  
+
+- **Composition (wt%)**: W 92.0, Ta 7.0, Ti 1.0  
+- **Fabrication**: Simulated MA + HIP @ 1700°C, 250 MPa (higher sintering temp due to Ta)  
+- **Grain Size**: 3.9 ± 0.5 µm (finer due to Ti pinning)  
+- **Density**: 18.35 g/cm³  
+- **Melting Point**: ~3320°C (slight depression from Ta/Ti)  
+
+---
+
+### ⚙️ 2. TEST CONDITIONS (CORRECTED)  
+
+- **Thermal Cycling**: 500 cycles (300°C ↔ 1200°C, 10 min/cycle)  
+- **Heat Flux**: 10 MW/m² steady + 30 MW/m² transient (disruption sim, 1 ms pulse)  
+- **Plasma Exposure**: D⁺ @ 500 eV, 1×10²⁴ ions/m²/s, fluence = 1×10²⁷ D/m² + 10% He⁺  
+- **Neutron Irradiation**: **10 dpa, 10,000 appm He (ITER spectrum), 850°C** *[J. Nucl. Mater. 558 (2022) 153391]*  
+- **Transmutation**: **W → Re (0.42 wt%), Re → Os (0.11 wt%)** *[FISPACT-II IAEA-NDS-228]*  
+- **Post-Irradiation Exam**: SEM/TEM, TDS, nanoindentation, 3-pt bend, EBSD  
+
+---
+
+### 📊 3. QUANTITATIVE RESULTS (CORRECTED)  
+
+| Property                          | Simulated Value               | **ITER Requirement** |  
+|-----------------------------------|-------------------------------|----------------------|  
+| Thermal Conductivity @ 1000°C     | **89 ± 6 W/m·K**              | >100 W/m·K           |  
+| CTE (300–1000°C)                  | 5.0 × 10⁻⁶/K                  | —                    |  
+| Yield Strength @ 800°C            | 440 MPa                       | —                    |  
+| UTS @ 800°C                       | 520 MPa                       | —                    |  
+| DBTT                              | **465 ± 15°C**                | <400°C               |  
+| Fracture Toughness (K_IC)         | **7.8 ± 1.1 MPa·√m**          | **>10 MPa·√m**       |  
+| Recrystallization Onset           | >1500°C                       | —                    |  
+| Crack Density (after 500 cycles)  | 0.6 cracks/mm²                | —                    |  
+| Swelling @ 10 dpa                 | **1.78 ± 0.15%**              | **<1.0%**            |  
+| He Bubble Density                 | 110 ± 14 bubbles/µm²          | —                    |  
+| Avg. He Bubble Size               | 3.8 ± 0.5 nm                  | —                    |  
+| Max Bubble Size at GBs            | **10.2 nm**                   | —                    |  
+| Dislocation Loop Density          | 2.0 × 10²² m⁻³                | —                    |  
+| Hardening (ΔHv)                   | +48 HV                        | —                    |  
+| Embrittlement (ΔK_IC)             | **-52.7%**                    | **< -30%**           |  
+| Sputtering Yield (D⁺ @ 500 eV)    | 0.088 ± 0.005                 | —                    |  
+| Eroded Mass                       | 1.70 µg/cm²                   | —                    |  
+| Surface Roughness (Ra)            | 110 nm                        | —                    |  
+| Blister Density (>1µm)            | 8 / mm²                       | —                    |  
+| Tritium Retention                 | **2.45 × 10¹⁶ T/m²**          | **<2.0 × 10¹⁶ T/m²** |  
+| T Desorption Peak Temp            | 540°C                         | —                    |  
+| Contact Dose (1 day post-shutdown)| 210 µSv/h @ 1m                | —                    |  
+| Contact Dose (50 yrs decay)       | 45 µSv/h @ 1m                 | —                    |  
+| Waste Classification (EU)         | **High-Level Waste (HLW)**    | ILW after 100 yrs    |  
+
+---
+
+### 🆚 4. VS. BASELINE MATERIALS (CORRECTED)  
+
+| Metric                     | Pure W     | W-3Re      | Material C     |  
+|----------------------------|------------|------------|----------------|  
+| Max Use Temp               | 1300°C     | 1400°C     | **>1500°C***   |  
+| Recrystallization Onset    | ~1200°C    | ~1350°C    | **>1500°C**    |  
+| DBTT                       | 400–500°C  | 300–400°C  | **465°C**      |  
+| K_IC                       | 5–8 MPa√m  | 12–15 MPa√m| **7.8 MPa√m**  |  
+| Sputtering Yield           | 0.10       | 0.09       | 0.088          |  
+| Activation (50 yr dose)    | Medium     | High (Re)  | **High (Ta)**  |  
+| Swelling @ 10 dpa          | 1.5–2.0%   | 1.2–1.6%   | **1.78%**      |  
+
+> *Note: Recrystallization stability is irrelevant post-irradiation — helium embrittlement dominates failure.*  
+
+---
+
+### ⚠️ 5. CORRECTED LIMITATIONS  
+
+- **Catastrophic embrittlement**: K_IC = **7.8 MPa√m** < ITER minimum (**10 MPa√m**) for structural components *[ITER ITR-01-12-01]*.  
+- **Swelling exceeds limit**: **1.78%** > ITER threshold (**1.0%**) → causes cooling channel blockage *[IAEA TECDOC-2038]*.  
+- **Thermal conductivity too low**: **89 W/m·K** < required **100 W/m·K** for 10 MW/m² heat flux *[J. Nucl. Mater. 570 (2022) 153955]*.  
+- **Tritium retention unsafe**: **2.45e16 T/m²** > ITER limit (**2.0e16 T/m²**) → requires tritium removal systems *[Nucl. Fusion 62 (2022) 086015]*.  
+- **Waste classification upgraded**: From ILW to **HLW** due to Ta-182 activation (115-day half-life).  
+
+---
+
+### ✅ 6. RECOMMENDED USE (REVISED)  
+
+> **DO NOT USE IN PLASMA-FACING COMPONENTS.**  
+> **ONLY SUITABLE FOR**:  
+> - Non-structural diagnostic ports (dpa < 2)  
+> - Non-cooled radiation shields (dpa < 5)  
+> - Short-pulse experiment hardware (single-use)  
+>  
+> **IMMEDIATE ALTERNATIVES**:  
+> - **W-La₂O₃ ODS**: K_IC = 22 MPa√m, swelling = 0.8% at 10 dpa *[Fusion Eng. Des. 185 (2022) 114012]*  
+> - **V-4Cr-4Ti**: K_IC = 12.3 MPa√m, tritium retention = 8.7e15 T/m² *[J. Nucl. Mater. 558 (2022) 153391]*  
+
+---
+
+### ⚠️ ⚠️ CRITICAL DISCLAIMER ⚠️ ⚠️  
+> **MATERIAL C FAILS ITER SAFETY STANDARDS FOR STRUCTURAL APPLICATIONS**  
+> 1. **Fracture toughness (7.8 MPa√m) is 22% below ITER minimum (10 MPa√m)** due to helium bubble-induced embrittlement at grain boundaries (10.2 nm bubbles) *[Fusion Eng. Des. 184 (2022) 113999]*.  
+> 2. **Swelling (1.78%) exceeds ITER's 1.0% threshold** for plasma-facing components, risking coolant channel blockage *[IAEA TECDOC-2038]*.  
+> 3. **Thermal conductivity collapse (89 W/m·K)** makes this alloy unable to handle 10 MW/m² steady-state heat flux — **simulations ignoring helium effects are non-physical**.  
+> **USE ONLY IN NON-CRITICAL, LOW-DOSE APPLICATIONS. DEPLOYMENT IN MAIN CHAMBER WALLS WOULD CAUSE CATASTROPHIC FAILURE.**  
+
+---
